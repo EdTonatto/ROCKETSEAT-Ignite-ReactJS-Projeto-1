@@ -1,13 +1,8 @@
-import { useState } from 'react'
 import './global.css'
 
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export function App() {
   return (
     <strong>Hello World</strong>
   )
 }
-
-export default App
