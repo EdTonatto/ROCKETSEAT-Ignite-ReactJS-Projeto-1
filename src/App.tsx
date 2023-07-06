@@ -1,8 +1,11 @@
+import { Header } from './components/Header'
 import './global.css'
 
 
 export function App() {
   return (
-    <strong>Hello World</strong>
+    <div>
+      <Header />
+    </div>
   )
 }
