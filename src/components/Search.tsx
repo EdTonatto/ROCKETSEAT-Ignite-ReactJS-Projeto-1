@@ -1,4 +1,4 @@
-import { PlusCircle } from 'phosphor-react'
+import { BsPlusCircle } from "react-icons/bs";
 import styles from './Search.module.css'
 
 export function Search() {
@@ -11,7 +11,7 @@ export function Search() {
       />
       <button type='submit'>
         Criar
-        <PlusCircle />
+        <BsPlusCircle />
       </button>
     </form>
   )

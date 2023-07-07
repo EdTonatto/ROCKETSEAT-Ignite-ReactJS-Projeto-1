@@ -1,4 +1,5 @@
-import { ClipboardText } from 'phosphor-react'
+import { TbClipboardText } from 'react-icons/tb'
+import { Task } from './Task'
 import styles from './TaskList.module.css'
 
 export function TaskList() {
@@ -17,8 +18,8 @@ export function TaskList() {
 
       <div className={styles.list}>
         <section className={styles.taskListEmpty}>
-          <ClipboardText size={50}/>
-          <div className={styles.xxx}>
+          <TbClipboardText size={50}/>
+          <div>
             <p>Você ainda não tem tarefas cadastradas</p>
             <span>Crie tarefas e organize seus itens a fazer</span>
           </div>
