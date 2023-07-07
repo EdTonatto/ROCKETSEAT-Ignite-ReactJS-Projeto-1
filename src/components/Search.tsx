@@ -1,3 +1,4 @@
+import { PlusCircle } from 'phosphor-react'
 import styles from './Search.module.css'
 
 export function Search() {
@@ -10,6 +11,7 @@ export function Search() {
       />
       <button type='submit'>
         Criar
+        <PlusCircle />
       </button>
     </form>
   )

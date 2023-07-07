@@ -1,5 +1,4 @@
 .todoadd {
-  /* border: 1px solid blue; */
   height: 3.375rem;
   width: 100%;
   display: grid;
@@ -15,6 +14,25 @@
   resize: none;
   padding: 1rem;
   color: var(--gray-300);
-  line-height: 1.4rem;
   overflow: hidden;
+}
+
+.todoadd button[type=submit] {
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  transition: background-color 0.1s;
+}
+
+.todoadd button[type=submit]:not(:disabled):hover {
+  background: var(--blue-light);
 }
