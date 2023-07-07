@@ -2,6 +2,7 @@ import { Header } from './components/Header'
 import './global.css'
 import styles from './App.module.css'
 import { Search } from './components/Search'
+import { TaskList } from './components/TaskList'
 
 export function App() {
   return (
@@ -13,9 +14,7 @@ export function App() {
           <Search />
         </div>
 
-        <div className={styles.todoList}>
-
-        </div>
+        <TaskList />
       </div>
     </div>
   )
