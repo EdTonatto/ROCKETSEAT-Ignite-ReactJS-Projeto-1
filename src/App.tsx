@@ -1,7 +1,7 @@
 import { Header } from './components/Header'
 import './global.css'
 import styles from './App.module.css'
-import { Search } from './components/Search'
+import { InsertBar } from './components/InsertBar'
 import { TaskList } from './components/TaskList'
 import { useEffect, useState } from 'react'
 
@@ -69,7 +69,7 @@ export function App() {
 
       <div className={styles.wrapper}>
         <div className={styles.search}>
-          <Search onAddTask={handleAddTask}/>
+          <InsertBar onAddTask={handleAddTask}/>
         </div>
 
         <TaskList 

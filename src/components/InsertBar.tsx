@@ -1,12 +1,12 @@
 import { ChangeEvent, FormEvent, useState } from 'react'
 import { BsPlusCircle } from "react-icons/bs";
-import styles from './Search.module.css'
+import styles from './InsertBar.module.css'
 
 interface HeaderProps {
   onAddTask: (taskTitle: string) => void;
 }
 
-export function Search({ onAddTask }: HeaderProps) {
+export function InsertBar({ onAddTask }: HeaderProps) {
   const [content, setContent] = useState("");
 
   function onChangeContent(event: ChangeEvent<HTMLTextAreaElement>) {
