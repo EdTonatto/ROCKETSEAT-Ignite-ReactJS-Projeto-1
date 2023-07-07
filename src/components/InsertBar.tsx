@@ -24,6 +24,7 @@ export function InsertBar({ onAddTask }: HeaderProps) {
       <textarea
         name="todo"
         placeholder="Adicione uma nova tarefa"
+        value={content}
         onChange={onChangeContent}
         required
       />
