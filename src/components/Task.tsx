@@ -1,16 +1,23 @@
 import { BsCircle, BsFillCheckCircleFill, BsTrash } from "react-icons/bs";
-import style from './Task.module.css'
+import { ITask } from "../App";
+import styles from './Task.module.css'
 
-export function Task() {
+interface TaskProps {
+  task: ITask;
+  onComplete: (taskId: string) => void;
+  onDelete: (taskId: string) => void;
+}
+
+export function Task({ task, onComplete, onDelete }: TaskProps) {
   return (
-    <div className={style.task}>    
-      <button className={style.unchecked}>
-        <BsCircle size={20} />
+    <div className={styles.task}>    
+      <button className={task.isCompleted ? styles.checked : styles.unchecked} onClick={() => onComplete(task.id)}>
+        {task.isCompleted ? <BsFillCheckCircleFill size={20} /> : <BsCircle size={20} />}
       </button>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat tempore earum numquam asperiores nobis omnis delectus.
+        {task.content}
       </p>
-      <button className={style.delete}>
+      <button className={styles.delete} onClick={() => onDelete(task.id)}>
         <BsTrash size={20} />
       </button> 
     </div>   
