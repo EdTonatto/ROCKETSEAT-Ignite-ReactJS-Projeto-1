@@ -11,19 +11,25 @@
 }
 
 .createdInfo strong {
-  color: var(--blue-light)
+  color: var(--blue-light);
+  font-size: 0.875rem;
+  font-weight: 700;
 }
 
 .createdInfo span, .doneInfo span {
   background: var(--gray-400);
   color: var(--gray-100);
   margin-left: 0.5rem;
-  padding: 0 0.5rem;
-  border-radius: 8px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
 }
 
 .doneInfo strong {
-  color: var(--purple-light)
+  color: var(--purple-light);
+  font-size: 0.875rem;
+  font-weight: 700;
 }
 
 .list {
@@ -44,10 +50,6 @@
   gap: 1rem;
   color: var(--gray-300);
   text-align: center;
-}
-
-.xxx {
-  display: block;
 }
 
 .taskListEmpty svg {
