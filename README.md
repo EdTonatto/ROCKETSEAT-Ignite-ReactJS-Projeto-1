@@ -11,7 +11,7 @@
 
 # ToDO
 
-**ToDO** is a project of a to-do list web page presented by [Rocketseat](https://www.rocketseat.com.br/)'s course of ReactJS as a [challenge](https://efficient-sloth-d85.notion.site/Desafio-01-Praticando-os-conceitos-do-ReactJS-91fd63dd1a5b4a2796152de293ec1074#216494e51e124dababb1a011c31986de) to the first chapter.
+**ToDO** is a project of a to-do list web page presented by [Rocketseat](https://www.rocketseat.com.br/)'s course of ReactJS as a [challenge](https://efficient-sloth-d85.notion.site/Desafio-01-Praticando-os-conceitos-do-ReactJS-91fd63dd1a5b4a2796152de293ec1074#216494e51e124dababb1a011c31986de) to the first chapter. It uses ReactJS with Typescript Vite as a build tool.
 
 Between the features of **ToDO** are: 
   - Adding a new task.
