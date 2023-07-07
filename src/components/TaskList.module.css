@@ -57,5 +57,7 @@
 }
 
 .taskListEmpty p {
+  color: var(--gray-300);
   font-weight: 700;
+  font-size: 1rem;
 }
