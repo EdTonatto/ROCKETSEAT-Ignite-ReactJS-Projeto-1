@@ -14,7 +14,7 @@ export function Task({ task, onComplete, onDelete }: TaskProps) {
       <button className={task.isCompleted ? styles.checked : styles.unchecked} onClick={() => onComplete(task.id)}>
         {task.isCompleted ? <BsFillCheckCircleFill size={20} /> : <BsCircle size={20} />}
       </button>
-      <p>
+      <p className={task.isCompleted ? styles.completed : ""}>
         {task.content}
       </p>
       <button className={styles.delete} onClick={() => onDelete(task.id)}>
