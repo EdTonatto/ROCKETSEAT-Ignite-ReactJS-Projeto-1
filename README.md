@@ -57,7 +57,7 @@ npm run dev
 ```
 
 ## Dependencies
-  - phosphor-react: ^1.4.1
+  - react-icons: ^4.10.1
   - react: ^18.2.0
   - react-dom: ^18.2.0
 
